@@ -14,7 +14,12 @@ var config = {
     loaders: [{
       include: DEV,
       loader: 'babel-loader',
-    }]
+    },
+    {
+      test: /\.css$/,
+      loader: "style-loader!css-loader"
+    }
+    ]
   }
 };
 
