@@ -1,7 +1,26 @@
 body {
-  padding: 50px;
+  padding: 0;
+  margin: 0;
   background-color: #66CCFF;
   font-family: sans-serif;
+}
+.todoListMain{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todoListMain .img{
+  height: 13vh;
+  width: 13vh;
+}
+.todoListMain p {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  padding-right: 3vw;
+  margin-bottom: 1vh;
 }
 .todoListMain .header input {
   padding: 10px;
@@ -21,4 +40,17 @@ body {
   background-color: #003399;
   border: 2px solid #003399;
   cursor: pointer;
+}
+.todoListMain .theList {
+  list-style: none;
+  padding-right: 4vw;
+  width: 255px;
+}
+
+.todoListMain .theList li {
+  color: #333;
+  background-color: rgba(255,255,255,.5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
 }
