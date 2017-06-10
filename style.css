@@ -54,6 +54,12 @@ body {
   margin-bottom: 15px;
   border-radius: 5px;
 }
+.todoListMain .check {
+  float: right;
+}
+.todoListMain .check:active{
+  font-size: 16px;
+}
 @media only screen and (max-width: 600px) {
   .todoListMain .theList {
     padding-right: 12vw;

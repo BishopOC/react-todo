@@ -8,9 +8,8 @@ var destination = document.querySelector('#container');
 class TodoItems extends React.Component {
   render(){
     var todoEntries = this.props.entries;
-
     function createTasks(item){
-      return <li key={item.key}>{item.text}</li>
+      return <li key={item.key}>{item.text}<input className='check' type='checkbox'></input></li>
     }
     var listItems = todoEntries.map(createTasks);
 
