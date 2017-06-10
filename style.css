@@ -54,3 +54,8 @@ body {
   margin-bottom: 15px;
   border-radius: 5px;
 }
+@media only screen and (min-width: 600px) {
+  .todoListMain .theList {
+    padding-right: 12vw;
+  }
+}
